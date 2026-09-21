@@ -1,0 +1,6 @@
+{
+  "name": "PropostasFlow",
+  "description": "Sistema premium de gestão e geração de propostas comerciais para telecomunicações, VoIP e serviços digitais",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

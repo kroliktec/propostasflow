@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="krolikGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a0a6b" />
+      <stop offset="100%" stop-color="#400138" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3399" />
+      <stop offset="100%" stop-color="#e60067" />
+    </linearGradient>
+  </defs>
+  <!-- Background Container -->
+  <rect width="128" height="128" rx="28" fill="url(#krolikGrad)" />
+  
+  <!-- Stylized Krolik Monogram 'K' -->
+  <g fill="none" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vertical Bar -->
+    <path d="M42 32 L42 96" />
+    <!-- Upper Diagonal -->
+    <path d="M42 66 L82 34" stroke="url(#accentGrad)" />
+    <!-- Lower Diagonal -->
+    <path d="M54 56 L86 96" />
+  </g>
+
+  <!-- Signal / Telecom Pulse Dot -->
+  <circle cx="86" cy="34" r="7" fill="#ff3399" />
+</svg>
